@@ -52,12 +52,12 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ElevatedButton(
               onPressed: (){
-                launch('sms: +923114280312?body=Hi My Name is Ali Raza');
+                launch('sms: +923114280312?body=Hi My Name is Aliyan');
               },child: Text("Send A SMS"),
             ),
             ElevatedButton(
               onPressed: (){
-                launch('mailto: aliyansohaib143@gmail.com?subject=Trying out Project&body=Hi My Name is Ali Raza');
+                launch('mailto: aliyansohaib143@gmail.com?subject=Trying out Project&body=Hi My Name is ');
               },child: Text("Send An Email"),
             ),
             ElevatedButton(
