@@ -57,12 +57,12 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ElevatedButton(
               onPressed: (){
-                launch('mailto: alirazaa.mxm@gmail.com?subject=Trying out Project&body=Hi My Name is Ali Raza');
+                launch('mailto: aliyansohaib143@gmail.com?subject=Trying out Project&body=Hi My Name is Ali Raza');
               },child: Text("Send An Email"),
             ),
             ElevatedButton(
               onPressed: (){
-                launch('https://www.instagram.com/a.l.e.e.007/');
+                launch('https://www.instagram.com/aliiyanissohaib/');
               },child: Text("Open A URL"),
             ),
           ],
