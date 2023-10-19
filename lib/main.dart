@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ElevatedButton(
               onPressed: (){
-                launch('sms: +923114280312?body=Hi My Name is Aliyan');
+                launch('sms: +92311312?body=Hi My Name is Aliyan');
               },child: Text("Send A SMS"),
             ),
             ElevatedButton(
