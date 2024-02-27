@@ -57,9 +57,9 @@ class _MyHomePageState extends State<MyHomePage> {
               },child: Text("Send A SMS"),
             ),
             ElevatedButton(
-              // onPressed: (){
-              //   launch('mailto: aliyansohaib143@gmail.com?subject=Trying out Project&body=Hi My Name is Aliyan');
-              // },child: Text("Send An Email"),
+              onPressed: (){
+                launch('mailto: aliyansohaib143@gmail.com?subject=Trying out Project&body=Hi My Name is Aliyan');
+              },child: Text("Send An Email"),
             ),
             ElevatedButton(
               onPressed: (){
