@@ -51,20 +51,20 @@ class _MyHomePageState extends State<MyHomePage> {
                 launch('tel: +923180312');
               },child: Text("Make A Call"),
             ),
-            // ElevatedButton(
-            //   onPressed: (){
-            //     launch('sms: +92311312?body=Hi My Name is Aliyan');
-            //   },child: Text("Send A SMS"),
-            // ),
-            // ElevatedButton(
-            //   onPressed: (){
-            //     launch('mailto: aliyansohaib143@gmail.com?subject=Trying out Project&body=Hi My Name is Aliyan');
-            //   },child: Text("Send An Email"),
-            // ),
-            // ElevatedButton(
-            //   onPressed: (){
-            //     launch('https://www.instagram.com/aliiyanissohaib/');
-            //   },child: Text("Open A URL"),
+            ElevatedButton(
+              onPressed: (){
+                launch('sms: +92311312?body=Hi My Name is Aliyan');
+              },child: Text("Send A SMS"),
+            ),
+            ElevatedButton(
+              onPressed: (){
+                launch('mailto: aliyansohaib143@gmail.com?subject=Trying out Project&body=Hi My Name is Aliyan');
+              },child: Text("Send An Email"),
+            ),
+            ElevatedButton(
+              onPressed: (){
+                launch('https://www.instagram.com/aliiyanissohaib/');
+              },child: Text("Open A URL"),
             ),
           ],
         ),
